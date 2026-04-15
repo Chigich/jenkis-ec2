@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sshagent(['554c1d0c-6228-4462-a05e-d0470ac10300']) {
                     sh '''
-                    ssh -o StrictHostKeyChecking=no ubuntu@54.237.169.62 << 'EOF'
+                    ssh -o StrictHostKeyChecking=no ubuntu@44.213.122.239<< 'EOF'
 
                     cd /home/ubuntu
 
